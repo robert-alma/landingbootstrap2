@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Landing.index');
 });
+
+Route::get('/copia', function(){
+    return view('Copia.index');
+});
+
+
+Route::get('/formulario', function(){
+    return view('Formulario.index');
+});

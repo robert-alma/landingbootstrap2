@@ -1,6 +1,6 @@
 <!-- INICIO / CABECERA -->
-<header class="container-fluid brand-color p-2">
-    <div class="container p-2 ">
+<header class="container-fluid bg-light">
+    <div class="container ">
         <div class="d-flex justify-content-between align-items-center">
             <div class="col-4 d-flex">
                 logo
@@ -45,7 +45,7 @@
             </div>
             <div class="col-4 d-flex align-items-center">
                 <div class="col-8 ">
-                    <p class=" col d-flex justify-content-end">Bienvenido, master</p>
+                    <p class=" col d-flex justify-content-end mb-1">Bienvenido, master</p>
                     <div class="dropdown d-flex justify-content-end ">
                         <button class="btn btn-primary rounded-pill dropdown-toggle p-0" type="button" id="dropdownMenuButton1"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,8 +59,8 @@
                     </div>
                 </div>
                 <div class="col-2 d-flex justify-content-center align-items-center m-3">
-                    <figure class="figure col d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('img/perfil14_orig.png') }}" class="figure-img img-fluid rounded"
+                    <figure class="w-50 figure col d-flex justify-content-center align-items-center m-0">
+                        <img src="{{ asset('img/perfil14_orig.png') }}" class="figure-img img-fluid rounded m-0"
                             alt="...">
                     </figure>
                 </div>
